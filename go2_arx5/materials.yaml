@@ -1,0 +1,17 @@
+# Linear RGB reflectance, metallic, roughness.
+DarkAnodized:
+  color: [0.16, 0.17, 0.18]
+  metallic: 0.70
+  roughness: 0.30
+DarkHousing:
+  color: [0.08, 0.085, 0.09]
+  metallic: 0.35
+  roughness: 0.43
+SilverCover:
+  color: [0.48, 0.46, 0.49]
+  metallic: 0.70
+  roughness: 0.36
+BlackGripper:
+  color: [0.06, 0.065, 0.07]
+  metallic: 0.35
+  roughness: 0.40
