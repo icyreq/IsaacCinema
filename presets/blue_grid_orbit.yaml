@@ -1,0 +1,35 @@
+robot:
+  checkpoint: models/best_agent.pt
+  control: go2_arx5/environment.yaml
+  actor:
+    backbone:
+    - 512
+    - 256
+    leg_branch:
+    - 128
+    arm_branch:
+    - 128
+    leg_actions: 12
+    arm_actions: 6
+    activation: elu
+scene:
+  num_envs: 16
+  spacing: 3.0
+  seed: 42
+  warmup: 2.0
+  ee_command_interval:
+  - 3.0
+  - 6.0
+  velocity_command_interval:
+  - 4.0
+  - 8.0
+  task_probabilities: null
+camera: close_orbit
+render:
+  width: 1920
+  height: 1080
+  samples_per_pixel: 8
+  crf: 17
+  encoder_preset: fast
+appearance: blue_grid
+commands: overhead

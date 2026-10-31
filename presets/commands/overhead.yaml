@@ -1,0 +1,42 @@
+enabled: true
+emission: 0.3
+arrow_head_length: 0.12
+velocity:
+  enabled: true
+  color:
+  - 0.025
+  - 0.32
+  - 0.95
+  anchor:
+  - 0.28
+  - 0.0
+  - 0.5
+  scale_seconds: 0.9
+  radius: 0.018
+turn:
+  enabled: true
+  scale_seconds: 0.7
+  world_height: 0.1
+  radius: 0.57
+  line_radius: 0.009
+  start_angle: 1.8849555921538759
+  segments: 23
+end_effector:
+  enabled: true
+  color:
+  - 1.0
+  - 0.3
+  - 0.025
+  radius: 0.027
+  axis_length: 0.14
+  axis_radius: 0.005
+  axis_colors:
+  - - 0.9
+    - 0.06
+    - 0.04
+  - - 0.1
+    - 0.7
+    - 0.18
+  - - 0.05
+    - 0.35
+    - 1.0

@@ -16,9 +16,9 @@ def configure_scene(cfg, settings, duration):
     cfg.commands.ee_pose.debug_vis = False
     cfg.commands.base_velocity.resampling_time_range = tuple(scene["velocity_command_interval"])
     cfg.commands.ee_pose.resampling_time_range = tuple(scene["ee_command_interval"])
-    if settings["camera"]["mode"] == "single":
-        cfg.commands.base_velocity.probs = [1., 0.]
-    configure_lighting(cfg, settings["lighting"])
+    if scene["task_probabilities"] is not None:
+        cfg.commands.base_velocity.probs = scene["task_probabilities"]
+    configure_lighting(cfg, settings["appearance"]["lighting"])
     cfg.sim.render.enable_direct_lighting = True
     cfg.sim.render.enable_shadows = True
     cfg.sim.render.enable_reflections = True

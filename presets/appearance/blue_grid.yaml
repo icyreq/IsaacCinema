@@ -1,0 +1,33 @@
+ground:
+  type: grid
+  spacing: 0.5
+  line_width: 0.005859375
+  texture_resolution: 512
+  color_srgb:
+  - 27
+  - 40
+  - 59
+  line_color_srgb:
+  - 78
+  - 98
+  - 122
+  roughness: 0.85
+robot_materials: asset
+lighting:
+  mode: studio
+  ambient: 350.0
+  ambient_color:
+  - 0.88
+  - 0.94
+  - 1.0
+  intensity: 650.0
+  color:
+  - 1.0
+  - 0.97
+  - 0.92
+  angle: 20.0
+  orientation:
+  - 0.8660254
+  - 0.3535534
+  - 0.3535534
+  - 0.0

@@ -1,0 +1,17 @@
+mode: orbit
+closeup_seconds: 3.0
+move_seconds: 7.0
+hold_seconds: 10.0
+close_distance: 1.15
+close_direction:
+- 0.65
+- -1.3
+- 0.95
+target_height: 0.08
+orbit_degrees: 90.0
+lateral_distance: 8.0
+end_horizontal_distance: 12.0
+end_height: 10.0
+focus: manipulation
+follow: false
+focal_length: null
